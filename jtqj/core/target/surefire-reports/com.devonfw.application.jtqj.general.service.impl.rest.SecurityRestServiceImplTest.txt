@@ -1,17 +1,17 @@
 -------------------------------------------------------------------------------
 Test set: com.devonfw.application.jtqj.general.service.impl.rest.SecurityRestServiceImplTest
 -------------------------------------------------------------------------------
-Tests run: 3, Failures: 0, Errors: 3, Skipped: 0, Time elapsed: 24.232 s <<< FAILURE! - in com.devonfw.application.jtqj.general.service.impl.rest.SecurityRestServiceImplTest
-testGetCurrentUser(com.devonfw.application.jtqj.general.service.impl.rest.SecurityRestServiceImplTest)  Time elapsed: 5.973 s  <<< ERROR!
+Tests run: 3, Failures: 0, Errors: 3, Skipped: 0, Time elapsed: 17.692 s <<< FAILURE! - in com.devonfw.application.jtqj.general.service.impl.rest.SecurityRestServiceImplTest
+testGetCurrentUser(com.devonfw.application.jtqj.general.service.impl.rest.SecurityRestServiceImplTest)  Time elapsed: 3.826 s  <<< ERROR!
 java.lang.NullPointerException
 	at com.devonfw.application.jtqj.general.service.impl.rest.SecurityRestServiceImplTest.testGetCurrentUser(SecurityRestServiceImplTest.java:74)
 
-testLogin(com.devonfw.application.jtqj.general.service.impl.rest.SecurityRestServiceImplTest)  Time elapsed: 5.771 s  <<< ERROR!
+testLogin(com.devonfw.application.jtqj.general.service.impl.rest.SecurityRestServiceImplTest)  Time elapsed: 4.691 s  <<< ERROR!
 org.springframework.web.client.HttpClientErrorException: 404 null
 	at com.devonfw.application.jtqj.general.service.impl.rest.SecurityRestServiceImplTest.login(SecurityRestServiceImplTest.java:92)
 	at com.devonfw.application.jtqj.general.service.impl.rest.SecurityRestServiceImplTest.testLogin(SecurityRestServiceImplTest.java:40)
 
-testGetCsrfToken(com.devonfw.application.jtqj.general.service.impl.rest.SecurityRestServiceImplTest)  Time elapsed: 5.12 s  <<< ERROR!
+testGetCsrfToken(com.devonfw.application.jtqj.general.service.impl.rest.SecurityRestServiceImplTest)  Time elapsed: 4.011 s  <<< ERROR!
 java.lang.NullPointerException
 	at com.devonfw.application.jtqj.general.service.impl.rest.SecurityRestServiceImplTest.testGetCsrfToken(SecurityRestServiceImplTest.java:57)
 
